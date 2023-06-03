@@ -1,6 +1,7 @@
 import React from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import Navbar from "../Containers/Navbar/Navigation";
+// import Navbar from "../Containers/Navbar/Navigation";
+import Navbar from "../Containers/navbar/Navigation";
 import Board from "../Containers/board/Board";
 import Sidebar from "../Containers/sidebar/Sidebar";
 import style from "../Home/Home.module.css";
@@ -63,3 +64,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// Navbar
