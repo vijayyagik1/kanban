@@ -71,7 +71,7 @@ export default function Navbar() {
             }}
           ></Box>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <IconButton                                                 // this button will redirect to trello website
+            <IconButton // this button will redirect to trello website
               size="large"
               aria-label="show 17 new notifications"
               color="inherit"
@@ -112,10 +112,15 @@ export default function Navbar() {
                 "aria-labelledby": "basic-button",
               }}
             >
-              <MenuItem onClick={handleClose}>Suman Sharma</MenuItem>
+              {/* <MenuItem onClick={handleClose}>Suman Sharma</MenuItem>
               <MenuItem onClick={handleClose}>Umang Sharma</MenuItem>
               <MenuItem onClick={handleClose}>Shubham Sindhe</MenuItem>
-              <MenuItem onClick={handleClose}>Vijay Yagik</MenuItem>
+              <MenuItem onClick={handleClose}>Vijay Yagik</MenuItem> */}
+
+              <MenuItem onClick={handleClose}>Himanshu Yadav</MenuItem>
+              <MenuItem onClick={handleClose}>Madhumita Chaudary</MenuItem>
+              <MenuItem onClick={handleClose}>Darshan Shinde</MenuItem>
+              <MenuItem onClick={handleClose}>Nagasai Lakshmi</MenuItem>
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
